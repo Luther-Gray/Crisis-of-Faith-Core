@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "cof-core",
+	"version": "${version}",
+	"name": "Crisis of Faith Core",
+	"description": "Crisis of Faith is a Narrative Apocalypse Modpack, this is its core mod.",
+	"authors": [
+		"Luther Gray"
+	],
+	"contact": {
+		"homepage": "https://otherheaven.net",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/cof-core/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.otherheaven.CrisisOfFaithCore"
+		],
+		"client": [
+			"net.otherheaven.CrisisOfFaithCoreClient"
+		],
+		"fabric-datagen": [
+			"net.otherheaven.CrisisOfFaithCoreDataGenerator"
+		]
+	},
+	"mixins": [
+		"cof-core.mixins.json",
+		{
+			"config": "cof-core.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
