@@ -6,7 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class CrisisOfFaithCore implements ModInitializer {
-	public static final String MOD_ID = "cof-core";
+	public static final String MOD_ID = "faith-core";
 
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
@@ -19,6 +19,6 @@ public class CrisisOfFaithCore implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		LOGGER.info("Sigils of gold & sweet kisses of steel.");
+		LOGGER.info("Hello Fabric world!");
 	}
 }
