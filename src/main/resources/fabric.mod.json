@@ -3,26 +3,26 @@
 	"id": "faith-core",
 	"version": "${version}",
 	"name": "Crisis of Faith - Core",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "The Core for the Crisis of Faith Modpack.",
 	"authors": [
-		"Me!"
+		"Luther Gray"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://otherheaven.net",
+		"sources": "https://github.com/Luther-Gray/Crisis-of-Faith-Core"
 	},
-	"license": "CC0-1.0",
+	"license": "Mixed",
 	"icon": "assets/faith-core/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.otherheaven.CrisisOfFaithCore"
+			"net.otherheaven.COFMain"
 		],
 		"client": [
-			"net.otherheaven.CrisisOfFaithCoreClient"
+			"net.otherheaven.COFClient"
 		],
 		"fabric-datagen": [
-			"net.otherheaven.CrisisOfFaithCoreDataGenerator"
+			"net.otherheaven.COFGen"
 		]
 	},
 	"mixins": [
