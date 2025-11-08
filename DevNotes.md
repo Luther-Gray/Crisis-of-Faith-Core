@@ -11,4 +11,3 @@ The world of Crisis of Faith is composed of a custom dimension. This dimension, 
 1. Massive cities, with biome variety
 2. Flatter Lands & Oceans
 3. Reduced Cave Amounts
-4. 
